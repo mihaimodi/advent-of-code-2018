@@ -14,7 +14,7 @@ char sir[60];
 int i,k,semn,cnt;
 int kcmin,kcmax,klmin,klmax,cmax,cmin=1000,lmax,lmin=1000;
 bool Mat[1000][1000];
-void minmax()//functie pt calcularea extremele
+void minmax()//functie pt calcularea extremelor
 {
     if(coord[k].l<coord[klmin].l)
         klmin=k;
